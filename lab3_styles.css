@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10;
+    background-color: gray;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: blue;
+}
+
+.game {
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+}
+
+main {
+    width: 70%;
+    padding: 20px;
+}
+
+aside {
+    width: 30%;
+    background-color: #f20f0f;
+    padding: 20px;
+}
+
+aside:hover {
+    background-color: rgb(230, 250, 7);
+}
+
+input[type="text"] {
+    width: 150px;
+}
+
+input[type="text"]:focus {
+    width: 400px;
+}
+
+button:hover {
+    background-color: green;
+}
